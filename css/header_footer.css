@@ -1,0 +1,96 @@
+
+/* header */
+header .content{
+background-color:#fff;
+height: 130px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+header .H_BTN{
+    color: #4D3729;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+header .H_BTN:hover{
+    transition: 0.3s;
+    color: rgb(202, 77, 31);
+}
+
+header img{
+    width: 74px;
+    margin: auto 60px;
+}
+
+/* footer */
+footer{
+    background-image: url('/img/footer_img.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 230px;
+}
+footer .content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* 左側 */
+footer .content .F_left{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 13%;
+}
+
+footer .content .F_left p{
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #4D3729;
+    line-height: 26px;
+}
+.F_LOGO{
+    width:150px ;
+    margin-right: 40px;
+}
+
+/* 右側 */
+footer .F_right{
+    margin-top: 20px;
+    background-color: #fff;
+    padding-right:20%;
+    height:178px;
+    display: flex;
+    align-items: center;
+    padding-left: 87px;
+}
+
+footer .title{
+    font-size: 16px;
+    color: #4D3729;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+footer .icon_3 img{
+    width: 30px;
+    margin-right: 33px;
+}
+/* copyright */
+.copyright{
+    background-color: #4D3729;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright p{
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: 2px;
+}
+

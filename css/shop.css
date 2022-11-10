@@ -1,0 +1,104 @@
+/* ★section-1_banner */
+.section_1 img{
+    width: 100%;
+}
+
+/* ★section-2_banner */
+.section_2 .content{
+    display: flex;
+    justify-content: center;
+    padding:80px 165px ;
+}
+.section_2 ul{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+
+.section_2 ul img{
+    width: 263px;
+}
+
+/* 商品清單內容調整 */
+.section_2 ul li{
+    margin: 0 10px;
+}
+
+.section_2 .name,.price{
+    text-align: center;
+}
+
+.section_2 p{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#626262;
+    font-size: 14px;
+}
+.section_2 .name{
+    padding: 10px 0px;
+}
+/* 按鈕 */
+.section_2 .BTN{
+    margin: 0 auto;
+    margin: 30px auto 70px auto ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section_2 a{
+    border-radius: 100px;
+    box-shadow:0px 4px 4px rgba(23, 10, 2, 0.2) ;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    background-color: #4D3729;
+    padding: 10px 40px;
+}
+
+.section_2 a:hover{
+    transition: 0.3s;
+    background-color: #ecd2c2;
+    color: #4D3729;
+    font-weight: 700;
+}
+
+/*section_3 下方尺寸&測量表 */
+.section_3 {
+    display: flex;
+    justify-content: center;
+    padding:0px 165px ;
+}
+
+.section_3 .content{
+    width: 100%;
+    display:flex;
+    justify-content: space-around;
+}
+
+.section_3 .title{
+    font-family: Arial;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #4d3729;
+    text-align: center;
+}
+
+.section_3 .line{
+    margin: 0 auto;
+    background-color:#CDA581;
+    height:3px;
+    width: 93px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+/* 圖片條整 */
+.section_3{
+    margin-bottom: 110px;
+}
+.section_3 .left_info img{
+    width: 500px;
+}
+.section_3 .right_info img{
+    width: 563px;
+}
